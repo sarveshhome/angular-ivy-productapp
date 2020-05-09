@@ -1,1 +1,22 @@
-<hello name="{{ name }}"></hello>
+
+
+<div class="container">
+   <br/>
+    <h2 class="text-center text-info">{{name}}</h2>
+     <table class="table">
+          <thead>
+              <tr>
+                <td> product Name </td>
+                <td> Code </td>
+                <td> Avaible </td>
+                <td> Price </td>
+                <td> Star Rating </td>
+              </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let product in products">
+              <td>{{product.productName}}</td>
+            </tr>
+          </tbody>
+     </table>
+</div>

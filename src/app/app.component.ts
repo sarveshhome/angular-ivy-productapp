@@ -1,18 +1,24 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION, OnInit } from '@angular/core';
 import { IProduct } from './IProduct';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent  {
+export class AppComponent  implements OnInit {
   name = 'Product APP' // + VERSION.major;
   product : IProduct[]=[];
   constructor(){
-    console.log('constructor');
+    console.log('C');
+  }
+  ngOnInit(){
+    console.log('I');
     this.product = this.getProducts();
     console.log(this.product);
+
   }
+
+
   getProducts(): IProduct[]{
       return [
               {
