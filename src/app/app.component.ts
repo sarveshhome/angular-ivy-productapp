@@ -7,14 +7,14 @@ import { IProduct } from './IProduct';
 })
 export class AppComponent  implements OnInit {
   name = 'Product APP' // + VERSION.major;
-  product : IProduct[]=[];
+  products : IProduct[]=[];
   constructor(){
     console.log('C');
   }
   ngOnInit(){
     console.log('I');
-    this.product = this.getProducts();
-    console.log(this.product);
+    this.products = this.getProducts();
+    console.log(this.products);
 
   }
 
