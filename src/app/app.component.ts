@@ -7,8 +7,11 @@ import { IProduct } from './IProduct';
 })
 export class AppComponent  {
   name = 'Product APP' // + VERSION.major;
-  
-
+  product : IProduct[]=[];
+  constructor(){
+    this.product = this.getProducts();
+    console.log(this.product);
+  }
   getProducts(): IProduct[]{
       return 
             [
