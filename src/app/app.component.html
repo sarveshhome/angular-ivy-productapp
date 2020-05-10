@@ -3,6 +3,10 @@
 <div class="container">
    <br/>
     <h2 class="text-center text-info">{{name}}</h2>
+    <hr>
+    <div>
+      <input type="text" placeholder="Search Product" class="form-control" [(ngModel)] ='searchtext'/>
+    </div>
      <table class="table">
           <thead>
               <tr>
@@ -15,7 +19,7 @@
               </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let product of products">
+            <tr *ngFor="let product of products | searchtext">
               <td><img [src]='product.imageUrl' [style.width.px]='imageWith' [style.margin.px]= 'imageMargin' /></td>
               <td>{{product.productName}}</td>
               <td>{{product.productCode}}</td>              

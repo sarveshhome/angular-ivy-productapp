@@ -9,6 +9,7 @@ export class AppComponent  implements OnInit {
   name = 'Product APP' // + VERSION.major;
   imageWith = 50;
   imageMargin = 5;
+  searchtext ='';
   products : IProduct[]=[];
   constructor(){
     console.log('C');
