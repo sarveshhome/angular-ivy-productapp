@@ -19,7 +19,7 @@
               </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let product of products | searchtext">
+            <tr *ngFor="let product of products | productfilter">
               <td><img [src]='product.imageUrl' [style.width.px]='imageWith' [style.margin.px]= 'imageMargin' /></td>
               <td>{{product.productName}}</td>
               <td>{{product.productCode}}</td>              
