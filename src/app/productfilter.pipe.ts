@@ -12,8 +12,8 @@ export class Productfilter implements PipeTransform{
           return value;
         }
         return value.filter(
-          item => item.productName.toLowerCase().indexOf(args.toLocaleLowerCase())>1);
-        )      
+          item => item.productName.toLowerCase().indexOf(args.toLocaleLowerCase())>1)
+        );      
 
     }
 }
