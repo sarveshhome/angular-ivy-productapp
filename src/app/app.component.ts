@@ -23,23 +23,25 @@ export class AppComponent  implements OnInit {
       return [
               {
                 "productId": 1,
-                "productName": "Brown eggs",
+                "productName": "WROGN",
                 "productCode": "Pro-1",
                 "releaseDate": "March 31 2020",                
-                "description": "Raw organic brown eggs in a basket",
-                "price": 30,
+                "description": "Men Grey Melange Self Design Round Neck T-shirt",
+                "price": 300,
                 "starRating": 4,
-                "imageUrl": "assets/images/1.jpg"
+                "imageUrl":  "assets/images/T-S-1.jpg",
+                "imageBUrl": "assets/images/T-B-1.jpg"
                 },
 			          {
                 "productId": 2,
-                "productName": "Sweet fresh stawberry",
+                "productName": "Puma",
                 "productCode": "Pro-2",
                 "releaseDate": "March 21 2020",                
-                "description": "Sweet fresh stawberry on the wooden table",
+                "description": "Men Black Printed Round Neck T-shirt",
                 "price": 29.45,
                 "starRating": 4,
-                "imageUrl": "assets/images/2.jpg"
+                "imageUrl":  "assets/images/T-S-2.jpg",
+                "imageBUrl": "assets/images/T-B-2.jpg"                
                 },
 				        {
                 "productId": 3,
@@ -49,7 +51,8 @@ export class AppComponent  implements OnInit {
                 "description": "Asparagus with ham on the wooden table",
                 "price": 18.95,
                 "starRating": 3,
-                "imageUrl": "assets/images/3.jpg"
+                "imageUrl":  "assets/images/T-S-3.jpg",
+                "imageBUrl": "assets/images/T-B-3.jpg"
                 },
 			          {
                 "productId": 4,
@@ -59,7 +62,8 @@ export class AppComponent  implements OnInit {
                 "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
                 "price": 17.68,
                 "starRating": 4,
-                "imageUrl": "assets/images/4.jpg"
+                "imageUrl":  "assets/images/T-S-4.jpg",
+                "imageBUrl": "assets/images/T-B-4.jpg"
                 }				
       ];      
   }
