@@ -7,6 +7,8 @@ import { IProduct } from './IProduct';
 })
 export class AppComponent  implements OnInit {
   name = 'Product APP' // + VERSION.major;
+  imageWith = 50;
+  imageMargin = 5;
   products : IProduct[]=[];
   constructor(){
     console.log('C');
@@ -40,7 +42,7 @@ export class AppComponent  implements OnInit {
                 "description": "Men Black Printed Round Neck T-shirt",
                 "price": 29.45,
                 "starRating": 4,
-                "imageUrl":  "assets/images/T-S-2.jpg",
+                "imageUrl":  "assets/images/T-S-2.jpg.jpg",
                 "imageBUrl": "assets/images/T-B-2.jpg"                
                 },
 				        {
