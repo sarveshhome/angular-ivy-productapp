@@ -31,7 +31,7 @@ export class AppComponent  implements OnInit {
                 "description": "Men Grey Melange Self Design Round Neck T-shirt",
                 "price": 300,
                 "starRating": 4,
-                "imageUrl":  "assets/images/T-S-1.jpg",
+                "imageUrl":  "../assets/images/T-S-1.jpg",
                 "imageBUrl": "assets/images/T-B-1.jpg"
                 },
 			          {
